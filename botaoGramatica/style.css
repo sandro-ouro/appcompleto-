@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #c8fd70;
+    --primary-color-dark: #91e506;
+    --text-dark: #000000;
+    --text-light: #9ea4a5;
+    --white: #ffffff;
+    --max-width: 1200px;
+    --header-font: "Orbitron", sans-serif;
+    --gradient-1: linear-gradient(
+      to right,
+      var(--primary-color),
+      var(--primary-color-dark),
+      var(--primary-color)
+    );
+    --gradient-2: linear-gradient(to right bottom, #1e272a, #000000);
+  }
+body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    height: 100vh;         /* Altura da viewport */
+    margin: 0;        
+    background: var(--text-dark);
+    color: var(--text-light);
+}
+.container{
+    width: 900px;
+    display: flex;
+    
+    flex-direction: column;
+    gap: 10px;
+    background: var(--gradient-2);
+
+}
+
+button{
+    height: 40px;
+}

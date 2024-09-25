@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    height: 100vh;         /* Altura da viewport */
+    margin: 0;             /* Remove margens padrão */
+}
+.container{
+    width: 900px;
+    display: flex;
+    
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+
+button{
+    height: 40px;
+}
+a{
+    height: 40px;
+}
